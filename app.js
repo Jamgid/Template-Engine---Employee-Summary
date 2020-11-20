@@ -23,7 +23,7 @@ inquirer.prompt([
     {
         type: "input",
         name: "managerId",
-        message: "What is the manager's Github Id?"
+        message: "What is the manager's Id?"
     },
     {
         type: "input",
@@ -35,10 +35,79 @@ inquirer.prompt([
         name: "managerRole",
         message: "What is the manager's Role?",
         default: "Manager"
+    },
+    {
+        type: "input",
+        name: "managerOfficeNumber",
+        message: "What is the manager's Office Number?"
     }
 ]).then(managerData => {
     const manager = new Manager(managerData.managerName,)
 })
+
+inquirer.prompt([
+    {
+        type: "input",
+        name: "engineerName",
+        message: "What is the engineer's Name?"
+    },
+    {
+        type: "input",
+        name: "engineerId",
+        message: "What is the engineer's Id?"
+    },
+    {
+        type: "input",
+        name: "engineerEmail",
+        message: "What is the engineer's Email?"
+    },
+    {
+        type: "input",
+        name: "engineerGithub",
+        message: "What is the engineer's Github username?"
+    },
+    {
+        type: "input",
+        name: "engineerRole",
+        message: "What is the engineer's Role?",
+        default: "Engineer"
+    }
+]).then(engineerData => {
+    const engineer = new Engineer(engineerData.engineerName,)
+})
+
+inquirer.prompt([
+    {
+        type: "input",
+        name: "internName",
+        message: "What is the intern's Name?"
+    },
+    {
+        type: "input",
+        name: "internId",
+        message: "What is the intern's Id?"
+    },
+    {
+        type: "input",
+        name: "internEmail",
+        message: "What is the intern's Email?"
+    },
+    {
+        type: "input",
+        name: "internSchool",
+        message: "Where did the intern go to school?"
+    },
+    {
+        type: "input",
+        name: "internRole",
+        message: "What is the intern's Role?",
+        default: "Intern"
+    }
+]).then(internData => {
+    const intern = new Intern(internData.internName,)
+})
+
+render({manager,engineer,intern})
 
 // After the user has input all employees desired, call the `render` function (required
 // above) and pass in an array containing all employee objects; the `render` function will
