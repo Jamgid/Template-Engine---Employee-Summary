@@ -1,0 +1,11 @@
+* {
+    font-weight: 600;
+}
+
+.team-heading {
+    background-color: rgb(235, 50, 17);
+}
+
+.card-header {
+    background-color: rgb(80, 146, 233);
+}
