@@ -2,7 +2,7 @@
 ## Template-Engine--Employee Summary
 ## ISC
 ## Jamgid | jamgid@yahoo.com
-## ![img](https://avatars0.githubusercontent.com/u/69053531?v=4)
+## ![img](https://avatars0.githubusercontent.com/u/69053531?size=160)
 ## ![img](https://github.com/Jamgid/Template-Engine---Employee-Summary/blob/main/assets/Template_Engine-Demo.gif?raw=true)
 ## ![img](https://github.com/Jamgid/Template-Engine---Employee-Summary/blob/main/assets/Template_Engine-html_demo.gif?raw=true)
 ## Table of Contents
