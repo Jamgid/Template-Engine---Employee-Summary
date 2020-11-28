@@ -12,11 +12,11 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH RE
 ## ![img](https://github.com/Jamgid/Template-Engine---Employee-Summary/blob/main/assets/Template_Engine-Demo.gif?raw=true)
 ## ![img](https://github.com/Jamgid/Template-Engine---Employee-Summary/blob/main/assets/Template_Engine-html_demo.gif?raw=true)
 ## Table of Contents
-1. Description
-2. Installation
-3. Usage
-4. Contributors
-5. Questions
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Contributors](#contributors)
+5. [Questions](#questions)
 # Description
 An app that allows the user to generate cards holding information about their employees onto an html file based on user input.
 # Installation
